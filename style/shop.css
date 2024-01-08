@@ -77,17 +77,3 @@ font-weight: 700;
 line-height: normal;
 }
 
-
-.box {
-  width: 803px;
-  height: 500px;
-}
-
-.box .vector {
-  position: fixed;
-  width: 803px;
-  height: 500px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
