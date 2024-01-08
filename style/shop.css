@@ -1,0 +1,93 @@
+
+/* banner */
+.banner{
+  
+  background-image:
+  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(44, 20, 38, 0.73)),
+  url('../resources/Banner\ Image.png');
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  height: 100vh;
+  text-decoration: none;
+
+}
+
+.title1{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+text-align: center;
+font-family: sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.title2{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+text-align: center;
+font-family: sans-serif;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px;
+
+}
+
+
+
+/* another */
+.another{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.another-1{
+  color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.another-2{
+  color: #070211;
+
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.box {
+  width: 803px;
+  height: 500px;
+}
+
+.box .vector {
+  position: fixed;
+  width: 803px;
+  height: 500px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
