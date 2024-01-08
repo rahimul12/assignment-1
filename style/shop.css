@@ -1,83 +1,75 @@
+* {
+  /* margin: auto;
+  padding: auto; */
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merriweather', serif;
+}
 
-/* banner */
-.banner{
-  
-  background-image: url('../resources/Banner\ Image.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: multiply;
-  height: 100vh;
-  text-decoration: none;
-  filter:brightness(50%)
+/* banner Part*/
+.banner {
+
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.729)), url(../resources/Banner\ Image.png);
+  max-width: 1320px;
+  height: 600px;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 120px;
+
+
+}
+/* Banner desc */
+.title1 {
+  font-size: 32px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 150px;
 
 }
 
-.title1{
-  position: absolute;
-  top: 28%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FFF;
-text-align: center;
-font-family: sans-serif;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
-}
-
-.title2{
+.title2 {
   position: absolute;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FFF;
-text-align: center;
-font-family: sans-serif;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 95px;
-
+  text-align: center;
+  font-size: 72px;
+  color: white;
+  
 }
+/* Banner desc end*/
 
 
 
-/* another */
-.another{
+/* main section 65% off*/
+.offer {
   color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  
 }
-.another-1{
+
+.desc-1 {
   color: #F00;
-
-text-align: center;
-
-font-family: Inter;
-font-size: 24px;
-/* font-style: normal;
-font-weight: 500;
-line-height: normal; */
+  font-family: normal;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+ 
 }
-.another-2{
+
+.desc-2 {
   color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-/* font-style: normal;
-font-weight: 700;
-line-height: normal; */
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
 }
 
-
-
-.svg{
+.svg {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -87,12 +79,7 @@ flex-shrink: 0; */
 }
 
 
-.main{
-  background: #FFF;
-}
-
-
-.banner2{
+.banner2 {
   background-image: url('../resources/Vectorrr.png');
   background-repeat: no-repeat;
   background-position: center;
