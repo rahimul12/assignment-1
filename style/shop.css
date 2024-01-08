@@ -2,20 +2,19 @@
 /* banner */
 .banner{
   
-  /* background-image:
-  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(44, 20, 38, 0.73));  */
   background-image: url('../resources/Banner\ Image.png');
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode: multiply;
   height: 100vh;
   text-decoration: none;
+  filter:brightness(50%)
 
 }
 
 .title1{
   position: absolute;
-  top: 25%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FFF;
@@ -59,20 +58,45 @@ line-height: normal;
   color: #F00;
 
 text-align: center;
+
 font-family: Inter;
 font-size: 24px;
-font-style: normal;
+/* font-style: normal;
 font-weight: 500;
-line-height: normal;
+line-height: normal; */
 }
 .another-2{
   color: #070211;
-
 text-align: center;
 font-family: Inter;
 font-size: 48px;
-font-style: normal;
+/* font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: normal; */
 }
 
+
+
+.svg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 802.9px;
+height: 500px;
+flex-shrink: 0; */
+}
+
+
+.main{
+  background: #FFF;
+}
+
+
+.banner2{
+  background-image: url('../resources/Vectorrr.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  height: 100vh;
+  text-decoration: none;
+}
